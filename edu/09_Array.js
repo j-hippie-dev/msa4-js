@@ -126,7 +126,7 @@ arr = [1, 2, 3, 4, 5];
 resultArr = arr.splice(-2, 1);
 console.log(arr, resultArr);
 
-//    3. start와 count를 전달했을 경우
+//    3. start와 count와 args를 전달했을 경우
 //        - 해당 인덱스 요소부터 count 수 만큼의 요소를 제거하고, 해당 위치에 args를 삽입하고, 제거한 요소들을 배열로 반환
 arr = [1, 2, 3, 4, 5];
 resultArr = arr.splice(2, 1, 100, 200, 300);
