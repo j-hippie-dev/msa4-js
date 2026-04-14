@@ -1,18 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
-  position: relative;
+  /* position: relative; */
+  padding: 15px;
+  position: absolute;
 }
 
 .box {
   width: 100px;
   height: 100px;
-  background-color: #a1a1ff;
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  opacity: 1;
+  /* background-color: #a1a1ff; */
+  /* top: 20%;
+  left: 50%; */
+  /* opacity: 1; */
 }
 
-.hidden {
+/* .hidden {
   opacity: 0;
 }
 
@@ -21,4 +28,9 @@
   height: 100vh;
   background: url('./hh.gif') no-repeat center;
   background-size: cover;
+} */
+
+/* =========================== */
+.busted {
+  background-color: #7caaff;
 }
